@@ -98,7 +98,7 @@ export default function Home() {
 						</div>
 						<div className="flex-shrink-0 text-center">
 							<img
-								src="/refraction.gif"
+								src="/Refraction.gif"
 								alt="Refraction (Figure 1)"
 								className="rounded-lg shadow-md max-w-[200px] mx-auto"
 							/>
