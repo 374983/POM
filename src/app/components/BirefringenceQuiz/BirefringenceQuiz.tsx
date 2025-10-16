@@ -151,7 +151,8 @@ export default function BirefringenceQuiz({ onComplete }: BirefringenceQuizProps
           <h2 className="text-xl font-semibold mb-4">Assignment Quiz</h2>
           <p className="mb-4 max-w-xl mx-auto">Drag each material to its correct category: <br />
             (room temperature except for the ice)<br />
-            Reminder: Birefringent materials are anisotropic. Otherwise, they cannot exhibit birefringence.</p>
+            Reminder: Birefringent materials are anisotropic. Otherwise, they cannot exhibit birefringence.<br/>
+          (No touchscreen support, so in case just think about the solution and click "Show Solution" afterwards.)</p>
           <div className="flex justify-center mb-4">
             <DropZone items={leftItems} setItems={setLeftItems} label="Birefringent (4)" acceptFrom={[middleItems, rightItems]} />
             <DropZone items={middleItems} setItems={setMiddleItems} label="Materials" acceptFrom={[leftItems, rightItems]} />
