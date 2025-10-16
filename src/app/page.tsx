@@ -3,83 +3,51 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className=""
-          src="/unistuttgart_logo_deutsch_cmyk_invertiert.png"
-          alt="Unilogo"
-          width={300}
-          height={10}
-          priority
-        />
-        <text>
-          Liquid Crystals and their behavior between crossed polarizers.
-        
-        </text>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <Link
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="/Seiten/page_Lernmodul"
-          >
-            Start
-          </Link>
-          <Link
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="/Seiten/page_Kapitel"
-          >
-            Kapitelauswahl
-          </Link>
+    <div className="relative min-h-screen">
+      <div className="absolute inset-0 z-0">
+        <div className="w-full h-full bg-[url('/Hintergrund.png')] bg-cover bg-center brightness-50">
+          <div className="w-full h-full bg-gradient-to-b from-transparent to-[#040035]" />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/Seiten/page_Kapitel"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      </div>
+      <div className="relative z-10 grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] text-white">
+        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/unistuttgart_logo_deutsch_cmyk_invertiert.png"
+            alt="Unilogo"
+            width={300}
+            height={10}
+            priority
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+          <p className="text-base text-gray-100 mb-6 max-w-xl mx-auto">
+            Birefringence and Polarized Light Microscopy
+          </p>
+          <div className="flex gap-4 items-center flex-col sm:flex-row">
+            <Link
+              className="rounded-lg border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+              href="/pages/polarizers"
+            >
+              Start
+            </Link>
+            <Link
+              className="rounded-lg border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+              href="/pages/chapters"
+            >
+              Chapters
+            </Link>
+          </div>
+          <div className="flex justify-center items-center space-x-4 text-sm mt-60">
+					<Link href="https://www.uni-stuttgart.de/impressum" className="text-gray-400 hover:text-white">
+						Imprint
+					</Link>
+					<span className="text-gray-400">|</span>
+					<Link href="https://www.uni-stuttgart.de/datenschutz" className="text-gray-400 hover:text-white">
+						Privacy Policy
+					</Link>
+				</div>
+        </main>
+      </div>
     </div>
+    
   );
 }
+
