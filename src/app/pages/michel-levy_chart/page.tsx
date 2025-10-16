@@ -115,7 +115,7 @@ export default function Home() {
                         </p>
 
                         <Image
-                            src="/chart_example.png"
+                            src="/Chart_example.png"
                             alt="Chart"
                             width={550}
                             height={60}
