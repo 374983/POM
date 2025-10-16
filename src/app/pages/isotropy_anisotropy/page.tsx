@@ -106,7 +106,7 @@ export default function Home() {
           <div ref={explanationRef} className="bg-neutral-900 rounded-2xl p-6 shadow-md w-full max-w-3xl text-gray-100">
             <p className="text-base text-gray-100 mb-6 max-w-xl mx-auto">
               So we can see that some materials let light pass while others don't.
-              The difference between the materials shown in the video, which causes light to pass through even with crossed polarizers,
+              The difference between the materials shown in the video, which causes light to pass even with crossed polarizers,
               lies in their internal structure. Let's have a closer look at the calcite crystal and the glass.
             </p>
             <div className="overflow-x-auto max-w-xl mx-auto mb-6">
@@ -164,7 +164,7 @@ export default function Home() {
               In contrast, glass does not form a regular structure with a preferred orientation.
               Its structure is disordered, and since there is no common directional order, a light ray along any axis 
               statistically encounters the same average distribution of atoms as a light ray along another axis. Therefore its optical properties remain the same in
-              every direction. That's why you don't see any difference when placed between crossed polarizers. Materials that behave the same in all directions are 
+              every direction. That's why glass appears dark when placed between crossed polarizers. Materials that behave the same in all directions are 
               called <strong><u>isotropic</u></strong>. So in our case we focus on <strong><u>optical isotropy</u></strong>.
             </p>
             <div className="mt-6 max-w-xl mx-auto">
