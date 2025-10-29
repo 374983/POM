@@ -183,7 +183,7 @@ export default function BirefringenceQuiz({ onComplete }: BirefringenceQuizProps
               <ul className="list-disc ml-6">
                 <li><strong>Glass:</strong> In the liquid state, the particles in glass are distributed randomly.
                   When the material solidifies, the particles remain frozen in place, preserving this random structure. → isotropic </li>
-                <li><strong>Calcite:</strong> It allignes in a common direction. → anisotropic</li>
+                <li><strong>Calcite:</strong> It aligns in a trigonal crystal structure. → anisotropic</li>
                 <li><strong>Sodium chloride:</strong> Cubic crystal structure → isotropic</li>
                 <li><strong>Plastic wrap:</strong> Polymer chains are stretched and have therefore an induced common alignment. → anisotropic </li>
                 <li><strong>Quarz:</strong> Forms a direction dependent structure. → anisotropic</li>
