@@ -188,7 +188,7 @@ export default function BirefringenceQuiz({ onComplete }: BirefringenceQuizProps
                 <li><strong>Plastic wrap:</strong> Polymer chains are stretched and have therefore an induced common alignment. → anisotropic </li>
                 <li><strong>Quarz:</strong> Forms a direction dependent structure. → anisotropic</li>
                 <li><strong>Air:</strong> Gas particles move freely and randomly in all directions → isotropic</li>
-                <li><strong>Ice:</strong> Hexagonal structures. → anisotropic</li>
+                <li><strong>Ice:</strong> Hexagonal structure. → anisotropic</li>
                 <li><strong>Ethanol:</strong> Liquid with no long-range structure. → isotropic</li>
               </ul>
             </div>
