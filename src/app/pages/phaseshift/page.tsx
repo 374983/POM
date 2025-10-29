@@ -96,8 +96,8 @@ export default function Home() {
                 Since birefringent materials split light into two rays that follow different refractive indices,
                 the rays also travel at different speeds. As a result, one ray gradually lags behind the other.
                 With increasing thickness, this delay becomes larger. We therefore describe this effect
-                as <strong><u>retardation</u></strong> <InlineMath math="\Gamma" />, defined as the product of the 
-                birefringence and the material thickness <InlineMath math="d" />.
+                as <strong><u>retardation</u></strong> <InlineMath math="\Gamma" />, defined as the product of 
+				birefringence and the material thickness <InlineMath math="d" />.
               </p>
               <BlockMath math="\Gamma = \Delta n \cdot d" />
               <p>The following animation illustrates how linearly polarized light waves behave when they pass through a birefringent material. (The video has no audio.)
