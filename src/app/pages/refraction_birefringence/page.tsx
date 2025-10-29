@@ -223,7 +223,7 @@ export default function Home() {
 								</div>
 							</div>
 							<p className="text-base text-gray-200 mb-6">
-								The doubled image occurs because birefringent materials do not have a single specific refractive index.
+								The doubled image occurs because birefringent materials do not have one single specific refractive index.
 								Due to their anisotropic properties, light travels at different speeds for different directions.
 								Therefore, birefringent materials have two refractive indices. <br />
 								The image that remains in the same position when the crystal is rotated follows Snell's law as we know
@@ -292,7 +292,8 @@ export default function Home() {
 										However, when the crystal is observed through a polarization filter, it becomes clear that depending on the orientation of the filter,
 										only certain parts of the birefringence are transmitted. In particular, one can observe that sometimes only the ordinary ray passes through,
 										while at other times only the extraordinary ray is visible. Moreover, these two configurations are exactly 90° apart.
-										This shows that birefringence can be understood as two orthogonal waves, as illustrated in <em>figure 4</em>.
+										This shows that the rays must be two orthogonal waves as illustrated in <em>figure 4</em>. 
+										They are affected differently by birefringence, which is why they drift apart.
 									</p>
 								</div>
 								<div className="flex-shrink-0 text-center">
